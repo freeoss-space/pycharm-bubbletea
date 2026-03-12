@@ -13,12 +13,6 @@ terminal user interfaces.
 ## Installation
 
 ```bash
-pip install pycharm-bubbletea
-```
-
-Or install from source:
-
-```bash
 git clone https://github.com/charmbracelet/bubbletea-python
 cd bubbletea-python
 pip install -e .
