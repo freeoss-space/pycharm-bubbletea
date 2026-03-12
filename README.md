@@ -140,6 +140,23 @@ pip install pytest
 pytest tests/ -v
 ```
 
+## Disclaimer
+
+This project was generated with the assistance of [Claude](https://claude.ai),
+an AI assistant by [Anthropic](https://www.anthropic.com/). While the code has
+been tested and reviewed, AI-generated code may contain errors, inaccuracies,
+or subtle bugs that are not immediately apparent. Users should:
+
+- **Review the code** before using it in production environments.
+- **Run the test suite** and add additional tests for their specific use cases.
+- **Not assume feature parity** with the original Go library — this is an
+  independent Python reimplementation inspired by the Bubble Tea API, not an
+  official port or endorsed product.
+- **Report issues** if they find bugs or inconsistencies with the original API.
+
+This project is **not affiliated with, endorsed by, or maintained by**
+[Charmbracelet, Inc.](https://charm.sh/) or the Bubble Tea team.
+
 ## Attribution
 
 This project is a Python port of [Bubble Tea](https://github.com/charmbracelet/bubbletea)
